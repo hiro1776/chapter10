@@ -25,21 +25,21 @@ main{
 }
 .step-img1{
   height: 150px;
-  background-image: url(img/flow01.png);
+  background-image: url(sample_img/sample_img/img/flow01.png);
   background-size: cover;
   background-position: bottom;
 }
 
 .step-img2{
   height: 150px;
-  background-image: url(img/flow02.png);
+  background-image: url(sample_img/sample_img/img/flow02.png);
   background-size: cover;
   background-position: bottom;
 }
 
 .step-img3{
   height: 150px;
-  background-image: url(img/flow03.png);
+  background-image: url(sample_img/sample_img/img/flow03.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -56,3 +56,12 @@ main{
 .title{
   margin: 15px 0 5px;
 }
+
+@media screen and (max-width:768px){
+  main {
+    width: 90%;
+  }
+  .step-box{
+    margin-top: 20px;
+    float: none;
+  }
